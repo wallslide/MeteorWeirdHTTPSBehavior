@@ -27,6 +27,7 @@ if (Meteor.isServer) {
 
     //Fails *****
     console.log(HTTP.call('GET', 'https://www.int-mypage.post.japanpost.jp/mypage/M010000.do'));
+    console.log(HTTP.call('GET', 'https://www.int-mypage.post.japanpost.jp/webapi/servlet/WEBAPI'));
     //************************************
 
     console.log('Finished HTTP call...');
